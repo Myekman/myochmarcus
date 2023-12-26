@@ -11,7 +11,7 @@ body {
 }
 
 .image-container {
-    height: 500px;
+    height: 800px;
     background-color: #FEF5EF;
     background-image: url(images/pexels-anastasia-shuraeva-5126456.jpg); 
     background-attachment: fixed;
@@ -21,20 +21,15 @@ body {
 }
 
 
-/* .header-image {
-    background-image: url(images/); 
-    height: 100%; 
-    
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+.welcome {
+    margin-top: 50px;
+}
 
-.osa-container {
-    height: 300px;
-    width: 300px;
-    margin: 20px;
+
+.bokacontainer {
+    height: 200px;
+    width: 200px;
+    margin: 50px;
     background-color: #f9d5bd;
     border-radius: 50%;
     
