@@ -1,0 +1,22 @@
+.bg-light {
+    background-color: #f9d5bd !important;
+}
+
+.navbar-brand {
+    padding-left: 10px;
+}
+
+.image-container {
+    height: 800px;
+}
+
+.header-image {
+    background-image: url(images/pexels-doğukan-benli-3094345.jpg);
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
