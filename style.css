@@ -11,10 +11,9 @@ body {
 }
 
 .image-container {
-    height: 800px;
-    /* background-color: #FEF5EF; */
-
-    background-image: url(images/pexels-doğukan-benli-3094345.jpg);
+    height: 500px;
+    background-color: #FEF5EF;
+    background-image: url(images/pexels-anastasia-shuraeva-5126456.jpg); 
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,22 +21,30 @@ body {
 }
 
 
-.header-image {
-    /* background-image: url(images/); */
+/* .header-image {
+    background-image: url(images/); 
     height: 100%; 
-
-    /* Create the parallax scrolling effect */
+    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
-/* .osa-container {
-    height: 560px;
-    width: 560px;
+.osa-container {
+    height: 300px;
+    width: 300px;
     margin: 20px;
     background-color: #f9d5bd;
     border-radius: 50%;
     
-} */
+} 
+
+.image-container2 {
+    height: 800px;
+    background-image: url(images/högakusten1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
