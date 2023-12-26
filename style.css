@@ -11,7 +11,7 @@
 }
 
 .header-image {
-    background-image: url(images/pexels-doğukan-benli-3094345.jpg);
+    background-image: url(images/pexels-anastasia-shuraeva-5126456.jpg);
     height: 100%; 
 
     /* Create the parallax scrolling effect */
@@ -19,4 +19,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.textbox {
+    margin-left: 5px;
+    margin-right: 5px;
 }
