@@ -4,16 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Link to your custom CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- Link to AOS styles -->
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" />
     <title>My och Marcus</title>
 </head>
 <body>
     <!-- <header>
-        <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-              Logo
-            </a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+              </ul>
+            </div>
           </nav>
     </header> -->
 
@@ -30,13 +43,37 @@
                 </div>
                 <div class="col-12 mt-5 d-flex justify-content-center align-items-center">
                     <div class="welcome">
-                        <h3>varmt välkomna till vårt bröllop</h3>
-                        <p>Information om dagen finner ni nedan</p>
-                        <p class="mt-5">Osa senast 20 April</p>
-                        <button>Osa</button>
+                        <div data-aos="zoom-in"  data-aos-duration="2000">
+                            <h3>varmt välkomna till vårt bröllop</h3>
+                            <p>Information om dagen finner ni nedan</p>
+                        </div>
+                        <!-- <div data-aos="fade-right"  data-aos-duration="3000">
+                            <p class="mt-5">Osa senast 20 April</p>
+                            <button>Osa</button>
+                        </div> -->
                     </div>
                 </div>
             </div>
+        </div>
+        
+        <div class="navbar-sticky">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
         </div>
     </section>
 
@@ -45,13 +82,13 @@
         <div class="col-12 d-flex justify-content-center">
             <div class="bg-black text-center h-100 project">
                 <div class="d-flex h-100 p-5">
-                    <div>
+                    <div data-aos="fade-up"  data-aos-duration="3000">
                         <h4>Vigsel</h4>
                         <div>
                             <img class="img-fluid" src="images/högakusten1.jpg" alt="..." />
                         </div>
                         <div class="textbox">
-                        <p class="mb-0">En tavelstil för dig som vill ha ett enkelt stilrent intryck. När jag målar den här typen av tavlor gillar jag att jobba med struktur för att få till ett liv i konstverket.</p>
+                            <p class="mb-0">En tavelstil för dig som vill ha ett enkelt stilrent intryck. När jag målar den här typen av tavlor gillar jag att jobba med struktur för att få till ett liv i konstverket.</p>
                         </div>
                     </div>
                 </div>
@@ -61,12 +98,14 @@
         <div class="col-12 d-flex justify-content-center">
             <div class="bg-black text-center h-100 project">
                 <div class="d-flex h-100 p-5">
-                    <div>
+                    <div data-aos="fade-up"  data-aos-duration="3000">
                         <h4>Middag & Fest</h4>
                         <div>
                             <img class="img-fluid" src="images/pexels-katrina-justovica-7958250.jpg" alt="..." />
                         </div>
-                        <p class="mb-0">En tavelstil för dig som vill ha ett enkelt stilrent intryck. När jag målar den här typen av tavlor gillar jag att jobba med struktur för att få till ett liv i konstverket.</p>
+                        <div>
+                            <p class="mb-0">En tavelstil för dig som vill ha ett enkelt stilrent intryck. När jag målar den här typen av tavlor gillar jag att jobba med struktur för att få till ett liv i konstverket.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -75,12 +114,14 @@
         <div class="col-12 d-flex justify-content-center">
             <div class="bg-black text-center h-100 project">
                 <div class="d-flex h-100 p-5">
-                    <div>
+                    <div data-aos="fade-up"  data-aos-duration="3000">
                         <h4>Bra att veta</h4>
                         <div>
                             <img class="img-fluid" src="images/pexels-philip-justin-mamelic-3162822.jpg" alt="..." />
                         </div>
-                        <p class="mb-0">En tavelstil för dig som vill ha ett enkelt stilrent intryck. När jag målar den här typen av tavlor gillar jag att jobba med struktur för att få till ett liv i konstverket.</p>
+                        <div>
+                            <p class="mb-0">En tavelstil för dig som vill ha ett enkelt stilrent intryck. När jag målar den här typen av tavlor gillar jag att jobba med struktur för att få till ett liv i konstverket.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -97,9 +138,11 @@
             <div class="col-lg-6">
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100 p-4">
-                        <div class="my-auto text-center text-lg-left">
+                        <div data-aos="fade-up"  data-aos-duration="3000" class="my-auto text-center text-lg-left">
                             <h4>Vigsel</h4>
-                            <p class="mb-0">En tavelstil för dig som vill ha ett enkelt stilrent intryck. När jag målar den här typen av tavlor gillar jag att jobba med struktur för att få till ett liv i konstverket.</p>
+                            <div>
+                                <p class="mb-0">En tavelstil för dig som vill ha ett enkelt stilrent intryck. När jag målar den här typen av tavlor gillar jag att jobba med struktur för att få till ett liv i konstverket.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -110,9 +153,11 @@
             <div class="col-lg-6">
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100 p-4">
-                        <div class="my-auto text-center text-lg-left">
+                        <div data-aos="fade-up"  data-aos-duration="3000" class="my-auto text-center text-lg-left">
                             <h4>Middag & Fest</h4>
-                            <p class="mb-0">En tavelstil för dig som vill ha ett enkelt stilrent intryck. När jag målar den här typen av tavlor gillar jag att jobba med struktur för att få till ett liv i konstverket.</p>
+                            <div>
+                                <p class="mb-0">En tavelstil för dig som vill ha ett enkelt stilrent intryck. När jag målar den här typen av tavlor gillar jag att jobba med struktur för att få till ett liv i konstverket.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -129,38 +174,56 @@
             <div class="col-lg-6">
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100 p-4">
-                        <div class="my-auto text-center text-lg-left">
+                        <div data-aos="fade-up"  data-aos-duration="3000" class="my-auto text-center text-lg-left">
                             <h4>Bra att veta</h4>
-                            <p class="mb-0">En tavelstil för dig som vill ha ett enkelt stilrent intryck. När jag målar den här typen av tavlor gillar jag att jobba med struktur för att få till ett liv i konstverket.</p>
+                            <div>
+                                <p class="mb-0">En tavelstil för dig som vill ha ett enkelt stilrent intryck. När jag målar den här typen av tavlor gillar jag att jobba med struktur för att få till ett liv i konstverket.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 
     <section>
-        <div class="image-container2">
-            <div class="row">
-                <div class="col-12 d-flex justify-content-start align-items-end h-100 bokarum" id="myHeader">
-                    <div class = "bokacontainer d-flex justify-content-center align-items-center">
-                        <img src="images/Bjorkuddenlogga.png" width="100" height="100"/>
-                    </div>
-                </div>
+        <div class="d-none d-md-block image-container2">
+       <!-- display image for md and larger -->
+        </div>
 
-                <div class="col-12 mt-5 d-flex justify-content-center align-items-center">
-                    <div class="bokarum2">
-                        <h3>Vill ni stanna hela natten?</h3>
-                        <button>Boka Rum</button>
+        <div class="d-md-none image-container3">
+            <!-- display image smaller then md -->
+        </div>
+
+        <div class="row justify-content-center bokarum2">
+            <div class="col-lg-6">
+                <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100 p-4">
+                        <div data-aos="fade-up"  data-aos-duration="3000" class="my-auto text-center text-lg-left">
+                            <h4>Middag & Fest</h4>
+                            <div">
+                                <p class="mb-0">En tavelstil för dig som vill ha ett enkelt stilrent intryck. När jag målar den här typen av tavlor gillar jag att jobba med struktur för att få till ett liv i konstverket.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <img class="img-fluid" src="images/Bjorkuddenlogga.png" alt="..." />
+            </div>
         </div>
 
-        <div>
-            <h2>Boka rum information osv...</h2>
-        </div>
+        <!-- <div class="card">
+            <div class="card-header">
+              Boka rum på Björkudden
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div> -->
+
     </section>
 
 
@@ -168,5 +231,11 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="./node_modules/aos/dist/aos.js"></script>
+
+<script>
+  // Initialize AOS
+  AOS.init();
+</script>
 </body>
 </html>

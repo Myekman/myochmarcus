@@ -10,6 +10,12 @@ body {
     padding-left: 10px;
 }
 
+.navbar-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Adjust the z-index as needed */
+}
+
 .image-container {
     height: 800px;
     background-color: #FEF5EF;
@@ -35,9 +41,38 @@ body {
     
 } 
 
+.btn-primary {
+    color: #fff;
+    background-color: #f9d5bd;
+    border-color: #f9d5bd;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    background-color: #FEF5EF;
+}
+
+.card-header {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgb(246 213 188);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
 .image-container2 {
     height: 800px;
     background-image: url(images/högakusten1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.image-container3 {
+    height: 800px;
+    background-image: url(images/högakusten1.jpg);
+    background-position: right;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
