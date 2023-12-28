@@ -16,10 +16,14 @@ body {
     z-index: 1000; /* Adjust the z-index as needed */
 }
 
+.navbar-nav .nav-link {
+    margin-right: 50px; /* Adjust the margin as needed */
+}
+
 .image-container {
-    height: 800px;
+    height: 400px;
     background-color: #FEF5EF;
-    background-image: url(images/pexels-anastasia-shuraeva-5126456.jpg); 
+    /* background-image: url(images/högakusten1.jpg);  */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +32,9 @@ body {
 
 
 .welcome {
-    margin-top: 50px;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 50px;
 }
 
 
@@ -77,4 +83,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     
+}
+
+.hotell-container {
+    padding-bottom: 40px;
+}
+
+.kuvert {
+    background-color: #A8BDA2;
+}
+
+.kuvert-container {
+    background-color: #A8BDA2;
+    padding-bottom: 40px;
+    margin-top: 0;
 }
