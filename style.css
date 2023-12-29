@@ -85,16 +85,53 @@ body {
     
 }
 
-.hotell-container {
-    padding-bottom: 40px;
+.more-info {
+    background-color: #FEF5EF;
 }
 
-.kuvert {
-    background-color: #A8BDA2;
+.bokarum2 {
+    background-color: #FBD8B5;
+    padding-bottom: 40px;
+    
+}
+
+.osa-container {
+    background-color: #F9BC7F;
+    padding-bottom: 40px;
+    margin-top: 80px;
+}
+
+.hotell-container {
+    padding-bottom: 40px;
+    background-color: #FBD8B5;
 }
 
 .kuvert-container {
     background-color: #A8BDA2;
     padding-bottom: 40px;
-    margin-top: 0;
+    
 }
+
+.följe-container {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 0 20px;
+}
+
+.följe-container2 {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    /* margin: 0 20px; */
+}
+
+.brudfölje {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.round-image {
+    border-radius: 50%;
+}
+
