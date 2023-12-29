@@ -98,6 +98,12 @@ body {
 .osa-container {
     background-color: #F9BC7F;
     padding-bottom: 40px;
+    /* margin-top: 80px; */
+}
+
+.tal-container {
+    background-color: #E5DCE4;
+    padding-bottom: 40px;
     margin-top: 80px;
 }
 
