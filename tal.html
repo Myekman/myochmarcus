@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="style.css">
     <!-- Link to AOS styles -->
     <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap" rel="stylesheet">
     <title>My och Marcus</title>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -31,18 +34,43 @@
             </div>
         </nav>
 
-        <p>tal här</p>
+        <div class="row">
+            <div class="col-3 offset-8 logo-header">
+                <img src="images/brölloplogga.png" width="100" height="100" />
+            </div>
+        </div>
     </header>
 
+    <div class="talformulär">
+      <div class="p-4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique deleniti magni et maiores blanditiis, nisi ab sed amet neque rem quae assumenda. Voluptatibus asperiores eligendi, accusamus nobis nemo deserunt corporis.</p>
+      </div>
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <div class="form-container">
+              <form action="https://formsubmit.co/myekman5@gmail.com" method="POST">
+                <div class="mb-3">
+                    <label for="name" class="form-label d-none">Ditt namn</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Namn">
+                  </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label d-none">Email address</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="namn@exempel.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label d-none">Example textarea</label>
+                  <textarea class="form-control" id="moreinfo" name="moreinfo" rows="3" placeholder="Vill du tillägga något?"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Anmäl</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 
 </body>
 
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-<script src="./node_modules/aos/dist/aos.js"></script>
 
 <script>
   // Initialize AOS

@@ -1,28 +1,34 @@
 body {
-    background: #FEF5EF!important;
+    background: #F8F4EE!important;
+    overflow-x: hidden;
+    font-family: 'Noto Serif', serif;
+}
+
+.osabody {
+    height: 100vh;
+    font-family: 'Noto Serif', serif;
 }
 
 .bg-light {
-    background-color: #FEF5EF !important;
+    background-color: #F8F4EE!important;
 }
 
-.navbar-brand {
-    padding-left: 10px;
+.navbar {
+    padding-left: 20px;
 }
 
-.navbar-sticky {
-    position: sticky;
-    top: 0;
-    z-index: 1000; /* Adjust the z-index as needed */
-}
 
 .navbar-nav .nav-link {
-    margin-right: 50px; /* Adjust the margin as needed */
+    margin-right: 50px; 
+}
+
+.container {
+    color: #e47e5d;
 }
 
 .image-container {
     height: 400px;
-    background-color: #FEF5EF;
+    background-color: #F8F4EE;
     /* background-image: url(images/högakusten1.jpg);  */
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -47,10 +53,35 @@ body {
     
 } 
 
+.custum-button {
+    background-color: #FEF5EF;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 32px;
+}
+
+    /* Specifik hover-färg för första knappen */
+    #button1:hover {
+        background-color: #d0b796;
+      }
+  
+    /* Specifik hover-färg för andra knappen */
+    #button3:hover {
+        background-color: #b7b095;
+      }
+  
+    /* Specifik hover-färg för tredje knappen */
+    #button2:hover {
+        background-color: #d2c3ce;
+      }
+
 .btn-primary {
-    color: #fff;
-    background-color: #f9d5bd;
-    border-color: #f9d5bd;
+color: #e88662;
+background-color: #f8f4ee;
+border-color: #f9d5bd;
+padding: 15px 32px;
+border: none;
+border-radius: 3px;
 }
 
 .card-body {
@@ -90,22 +121,28 @@ body {
 }
 
 .bokarum2 {
-    background-color: #FBD8B5;
+    background-color: #eadccb;
     padding-bottom: 40px;
     
 }
 
 .osa-container {
-    background-color: #F9BC7F;
+    background-color: #e9e3cf;
     padding-bottom: 40px;
+    padding-top: 20px;
     /* margin-top: 80px; */
 }
 
 .tal-container {
     background-color: #E5DCE4;
     padding-bottom: 40px;
-    margin-top: 80px;
+    margin-top: 60px;
+    padding-top: 20px;
 }
+
+/* .tal-formulär {
+    background-color:  #E5DCE4;
+} */
 
 .hotell-container {
     padding-bottom: 40px;
@@ -122,22 +159,50 @@ body {
     border-radius: 50%;
     height: 300px;
     width: 300px;
-    margin: 0 20px;
+    margin: 0 20px 70px;
 }
 
-.följe-container2 {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    /* margin: 0 20px; */
-}
 
 .brudfölje {
     margin-top: 80px;
     margin-bottom: 50px;
 }
 
+
 .round-image {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; /* Anpassa bilden inuti det fasta området */
     border-radius: 50%;
 }
 
+.form-container {
+    background-color:  #E5DCE4;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+
+/* Media query for logo screens below 800 pixels */
+@media screen and (max-width: 800px) {
+    .col-3.logo-header img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* -------------------------------------------prevent horisontall scroll ---------------*/
+
+@media screen and (max-width: 600px) {
+    /* Styles for small screens */
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for medium screens */
+}
+
+@media screen and (min-width: 1025px) {
+    /* Styles for large screens */
+}
