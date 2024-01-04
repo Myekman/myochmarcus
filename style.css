@@ -162,6 +162,13 @@ border-radius: 3px;
     margin: 0 20px 70px;
 }
 
+.följe-container2 {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 0 20px 70px;
+}
+
 
 .brudfölje {
     margin-top: 80px;
@@ -172,6 +179,13 @@ border-radius: 3px;
 .round-image {
     width: 300px; 
     height: 300px; 
+    object-fit: cover; /* Anpassa bilden inuti det fasta området */
+    border-radius: 50%;
+}
+
+.round-image2 {
+    width: 200px; 
+    height: 200px; 
     object-fit: cover; /* Anpassa bilden inuti det fasta området */
     border-radius: 50%;
 }
