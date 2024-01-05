@@ -21,14 +21,19 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Info</a>
+                <li>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/brölloplogga.png" alt="" width="30" height="30">
+                </a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="osa.html">OSA</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#tal">Anmäl tal</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="brudfölje.html">Brudfölje</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.html#boka">Boka rum</a>
@@ -45,12 +50,12 @@
     </header>
 
     <div class="talformulär">
-      <div class="p-4">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique deleniti magni et maiores blanditiis, nisi ab sed amet neque rem quae assumenda. Voluptatibus asperiores eligendi, accusamus nobis nemo deserunt corporis.</p>
+      <div class=" row p-4">
+        <p class="col-md-6 offset-md-3">Vi ser fram emot att dela vår speciella dag med er och skulle vara glada över att inkludera personliga tal och spex från våra närmaste vänner och familj. Om du känner att du har något hjärtevärmande eller roligt att dela med dig av, vänligen anmäl ditt intresse till vår toastmadam Jonna nedan. </p>
       </div>
         <div class="row">
           <div class="col-md-6 offset-md-3">
-            <div class="form-container">
+            <div class="form-container-tal">
               <form action="https://formsubmit.co/myekman5@gmail.com" method="POST">
                 <div class="mb-3">
                     <label for="name" class="form-label d-none">Ditt namn</label>
@@ -62,7 +67,7 @@
                 </div>
                 <div class="mb-3">
                   <label for="exampleFormControlTextarea1" class="form-label d-none">Example textarea</label>
-                  <textarea class="form-control" id="moreinfo" name="moreinfo" rows="3" placeholder="Vill du tillägga något?"></textarea>
+                  <textarea class="form-control" id="moreinfo" name="moreinfo" rows="5" placeholder="Valfri info eller frågor till Toastmadam här:"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Anmäl</button>
               </form>

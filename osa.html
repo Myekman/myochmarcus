@@ -21,14 +21,19 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Info</a>
+                <li>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/brölloplogga.png" alt="" width="30" height="30">
+                </a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#osa">OSA</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="tal.html">Anmäl tal</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="brudfölje.html">Brudfölje</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.html#boka">Boka rum</a>
@@ -47,19 +52,19 @@
     <div class="osaformulär">
         <div class="row">
           <div class="col-md-6 offset-md-3">
-            <div class="form-container">
-                <h3>Ni kan OSA namnen på hela sällskapet/familjen nedan: </h3>
+            <div class="form-container-osa">
+                <h3></h3>
               <form action="https://formsubmit.co/myekman5@gmail.com" method="POST">
                 <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label d-none">Namn på hela sällskapet</label>
-                    <textarea class="form-control" id="moreinfo" name="moreinfo" rows="3" placeholder="Era namn här"></textarea>
+                    <label for="exampleFormControlTextarea1" class="form-label d-none">Ditt eller sällskapets namn här</label>
+                    <textarea class="form-control" id="moreinfo" name="moreinfo" rows="3" placeholder="Ditt eller sällskapets namn här"></textarea>
                 </div>
                 <div class="mb-3">
                   <label for="exampleFormControlInput1" class="form-label d-none">Email address</label>
                   <input type="email" class="form-control" id="email" name="email" placeholder="namn@exempel.com">
                 </div>
                 <div class="mb-3">
-                    <label for="response" class="form-label">Kommer ni?</label>
+                    <label for="response" class="form-label">Kommer ni/du?</label>
                     <select class="form-select" id="response" name="response" required>
                       <option value="Ja">Ja</option>
                       <option value="Nej">Nej</option>

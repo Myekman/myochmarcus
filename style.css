@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-    color: #e47e5d;
+    color: #D05E1A;
 }
 
 .image-container {
@@ -64,16 +64,18 @@ body {
     #button1:hover {
         background-color: #d0b796;
       }
+
+    /* Specifik hover-färg för tredje knappen */
+    #button2:hover {
+        background-color: #d2c3ce;
+      }
   
     /* Specifik hover-färg för andra knappen */
     #button3:hover {
         background-color: #b7b095;
       }
   
-    /* Specifik hover-färg för tredje knappen */
-    #button2:hover {
-        background-color: #d2c3ce;
-      }
+
 
 .btn-primary {
 color: #e88662;
@@ -190,8 +192,16 @@ border-radius: 3px;
     border-radius: 50%;
 }
 
-.form-container {
+.form-container-osa {
     background-color:  #E5DCE4;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.form-container-tal {
+    background-color:  #b7b095;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
