@@ -27,7 +27,7 @@ body {
 }
 
 .image-container {
-    height: 400px;
+    height: 500px;
     background-color: #F8F4EE;
     /* background-image: url(images/högakusten1.jpg);  */
     background-attachment: fixed;
@@ -39,8 +39,8 @@ body {
 
 .welcome {
     margin-top: 40px;
-    padding-left: 20px;
-    padding-right: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 
@@ -214,6 +214,13 @@ border-radius: 3px;
     .col-3.logo-header img {
         width: 100px;
         height: 100px;
+    }
+}
+
+/* Media query for logo screens below 375 pixels */
+@media screen and (max-width: 375px) {
+    .image-container {
+        height: 650px;
     }
 }
 
