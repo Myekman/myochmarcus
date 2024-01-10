@@ -142,6 +142,10 @@ border-radius: 3px;
     padding-top: 20px;
 }
 
+.tal-container2 {
+    background-color: #E5DCE4;
+}
+
 /* .tal-formulär {
     background-color:  #E5DCE4;
 } */
@@ -174,7 +178,7 @@ border-radius: 3px;
 
 .brudfölje {
     margin-top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 
