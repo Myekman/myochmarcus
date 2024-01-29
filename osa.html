@@ -64,12 +64,24 @@
                   <input type="email" class="form-control" id="email" name="email" placeholder="namn@exempel.com">
                 </div>
                 <div class="mb-3">
+                  <label for="exampleFormControlInput2" class="form-label d-none">Dela med dig av en låt som ni inte kan sitta still till</label>
+                  <input type="text" class="form-control" id="låt" name="låt" placeholder="En låt du inte kan sitta still till:">
+                </div>
+                <div class="mb-3">
                     <label for="response" class="form-label">Kommer ni/du?</label>
                     <select class="form-select" id="response" name="response" required>
                       <option value="Ja">Ja</option>
                       <option value="Nej">Nej</option>
                     </select>
-                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="response" class="form-label">Kommer ni/du boka rum för övernattning?</label>
+                  <select class="form-select" id="response" name="response" required>
+                    <option value="Ja">Ja</option>
+                    <option value="Nej">Nej</option>
+                    <input type="text" class="form-control" id="rum" name="rum" placeholder="om ja, namn på er som stannar">
+                  </select>
+              </div>
                 <button type="submit" class="btn btn-primary">Skicka</button>
               </form>
             </div>

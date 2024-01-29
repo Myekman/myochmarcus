@@ -101,7 +101,7 @@ border-radius: 3px;
 
 .image-container2 {
     height: 800px;
-    background-image: url(images/högakusten1.jpg);
+    background-image: url(images/björkuddenstor.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,8 +110,8 @@ border-radius: 3px;
 
 .image-container3 {
     height: 800px;
-    background-image: url(images/högakusten1.jpg);
-    background-position: right;
+    background-image: url(images/björkudden3.jpeg);
+    background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
