@@ -55,6 +55,7 @@ body {
 
 .custum-button {
     background-color: #FEF5EF;
+    text-decoration: none;
     border: none;
     border-radius: 3px;
     padding: 15px 32px;
@@ -79,6 +80,7 @@ body {
 
 .btn-primary {
 color: #e88662;
+text-decoration: none;
 background-color: #f8f4ee;
 border-color: #f9d5bd;
 padding: 15px 32px;
@@ -161,12 +163,12 @@ border-radius: 3px;
     
 }
 
-.följe-container {
+/* .följe-container {
     border-radius: 50%;
     height: 300px;
     width: 300px;
     margin: 0 20px 70px;
-}
+} */
 
 .följe-container2 {
     border-radius: 50%;
@@ -178,7 +180,7 @@ border-radius: 3px;
 
 .brudfölje {
     margin-top: 80px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 
