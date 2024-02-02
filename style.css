@@ -29,7 +29,6 @@ body {
 .image-container {
     height: 500px;
     background-color: #F8F4EE;
-    /* background-image: url(images/högakusten1.jpg);  */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,11 +56,6 @@ body {
     
 }
 
-
-/* .my-hidden-div {
-    display: none;
-} */
-
 #myDiv {
     display: none;
 }
@@ -74,9 +68,17 @@ body {
     padding: 15px 32px;
 }
 
-a {
+.prisknapp {
+    background-color: #FEF5EF;
     text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 5px;
+    border: 1px solid black;
+}
 
+.link {
+    text-decoration: none;
 }
 
 .text-decoration {
