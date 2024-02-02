@@ -55,7 +55,16 @@ body {
     background-color: #f9d5bd;
     border-radius: 50%;
     
-} 
+}
+
+
+/* .my-hidden-div {
+    display: none;
+} */
+
+#myDiv {
+    display: none;
+}
 
 .custum-button {
     background-color: #FEF5EF;
@@ -65,9 +74,13 @@ body {
     padding: 15px 32px;
 }
 
-.custum-button a {
+a {
     text-decoration: none;
 
+}
+
+.text-decoration {
+    text-decoration: none;
 }
 
     /* Specifik hover-färg för första knappen */

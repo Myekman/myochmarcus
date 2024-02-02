@@ -252,6 +252,13 @@
                                     <a href="https://www.bjorkudden.se/sv/hotellet/">
                                         <button id="button1" class="mt-4 custum-button">Björkuddens hemsida</button>
                                     </a>
+                                    <div id="myDiv" class="my-hidden-div">
+                                        <!-- Innehåll i din div -->
+                                        <p>Denna div är osynlig som standard.</p>
+                                      </div>
+                                      
+                                      <button id="toggleBtn" class="btn btn-primary mt-3">Visa/Dölj</button>
+                                      
                                 </div>
                             </div>
                         </div>
@@ -277,7 +284,7 @@
                     <img class="img-fluid round-image" src="images/oskar.jpg" alt="..." />
                     <div>
                         <h4 class="mt-4">OSKAR</h4>
-                        <p>070 667 97 14</p>
+                        <p class="text-decoration">070 667 97 14</p>
                     </div>
                 </div>
             </div>
@@ -288,7 +295,7 @@
                     <div>
                     <h4 class="mt-4">JONNA</h4>
                     <p>jonnasjolund3@gmail.com</p>
-                    <p>070 526 94 33</p>
+                    <p class="text-decoration">070 526 94 33</p>
                     </div>
                 </div>
             </div>
@@ -370,6 +377,24 @@
 <script>
   // Initialize AOS
   AOS.init();
+
+  document.addEventListener('DOMContentLoaded', function () {
+  var myDiv = document.getElementById('myDiv');
+  var toggleBtn = document.getElementById('toggleBtn');
+
+  toggleBtn.addEventListener('click', function () {
+    console.log('Nuvarande display-värde:', myDiv.style.display);
+
+    // Toggle display-egenskapen när knappen klickas på
+    if (myDiv.style.display === 'none' || myDiv.style.display === '') {
+      myDiv.style.display = 'block';
+    } else {
+      myDiv.style.display = 'none';
+    }
+
+    console.log('Ny display-värde:', myDiv.style.display);
+  });
+});
 
 </script>
 </body>
