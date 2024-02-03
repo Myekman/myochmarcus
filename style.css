@@ -1,8 +1,13 @@
+html {
+    overflow-x: hidden;
+}
+
+
 body {
     background: #F8F4EE!important;
     overflow-x: hidden;
     font-family: 'Noto Serif', serif;
-    overflow-x: hidden;
+
 }
 
 .osabody {
@@ -64,6 +69,7 @@ body {
 .custum-button {
     background-color: #FEF5EF;
     text-decoration: none !important;
+    color: #fa6d3e;
     border: none;
     border-radius: 3px;
     padding: 15px 32px;
@@ -73,6 +79,7 @@ body {
     background-color: #FEF5EF;
     text-decoration: none !important;
     border: none;
+    color: #fa6d3e;
     border-radius: 3px;
     padding: 5px 5px;
     /* border: 1px solid black; */
